@@ -1,0 +1,28 @@
+/* 全体のリセットとフォント設定 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  color: var(--color-foreground);
+  background-color: var(--color-background);
+}
+
+/* Section styles with border */
+section {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+}
+
+/* Checkbox styles with white checkmarks */
+input[type="checkbox"]:checked {
+  accent-color: var(--color-primary);
+}
+
+input[type="checkbox"]:checked::after {
+  color: white;
+}

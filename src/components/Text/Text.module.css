@@ -1,0 +1,26 @@
+.h1 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: var(--color-primary-foreground);
+  font-weight: bold;
+}
+
+.h2 {
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: var(--color-primary-foreground);
+  margin: 0;
+}
+
+.p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  color: var(--color-muted-foreground);
+  font-size: 0.9rem;
+  margin: 0;
+}
